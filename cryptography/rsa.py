@@ -1,3 +1,5 @@
+## Inspired by [video a](https://www.youtube.com/watch?v=xmwxDHX6xUc) and [video b](https://www.youtube.com/watch?v=uNzaMrcuTM0) by Zach Star with a bit help of ChatGPT
+
 import random
 import math
 
@@ -8,6 +10,9 @@ random_prime_a = 101
 random_prime_b = 103
 n = random_prime_a * random_prime_b
 euler_phi_of_n = (random_prime_a - 1) * (random_prime_b - 1)
+
+
+### THIS PART IS HELPED BY CHATGPT
 
 # pick e such that gcd(e, euler_phi_of_n) == 1
 e = random.randrange(1, n)
@@ -23,6 +28,8 @@ print("n              = ", n)
 print("euler_phi_of_n = ", euler_phi_of_n)
 print("e              = ", e)
 print("d              = ", d)
+
+### END OF PART THAT IS HELPED BY CHATGPT
 
 public_key  = (e, n)
 private_key = (d, n)

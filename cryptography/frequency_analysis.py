@@ -1,3 +1,4 @@
+## Inspired by [video a](https://www.youtube.com/watch?v=xmwxDHX6xUc) and [video b](https://www.youtube.com/watch?v=uNzaMrcuTM0) by Zach Star with a bit help of ChatGPT
 # A simple frequency analysis for a simple encryption algorithm which is the vigener cipher
 
 key   = "Whatever"
